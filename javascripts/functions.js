@@ -21,3 +21,14 @@ let arrMax = (arr) => {
   });
   return max;
 };
+
+//Req.3d
+let sumEvens = (arr) => {
+  var sum = 0;
+  for(let x of arr){
+    if(x%2==0){
+      sum=sum+x;
+    }
+  }
+  return sum;
+};
