@@ -12,6 +12,12 @@ let arrAvg = (arr) => {
 };
 
 //Req. 3c
-let arrMax = (arr) {
-
+let arrMax = (arr) => {
+  var max = arr[0];
+  arr.forEach(x=>{
+    if (x>max){
+      max=x;
+    }
+  });
+  return max;
 };
